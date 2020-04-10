@@ -12,31 +12,27 @@
 // and append it to the DOM inside the div.header-container
 
 function Header() {
-
-  // createElement
+// 1 createElement
 head = document.createElement('div')
 date = document.createElement('span')
 mainTitle = document.createElement('h1')
 temp = document.createElement('span')
-
-// classlist
+// 2 classlist
 head.classList.add('header')
 date.classList.add('date')
 temp.classList.add('temp')
-
-// textContent
+// 3 textContent
 date.textContent = 'SMARCH 28, 2019'
 mainTitle.textContent = 'Lambda Times'
 temp.textContent = '98°'
-
-// append
+// 4 append
 head.append(date)
 head.append(mainTitle)
 head.append(temp)
-
-// return
+// 5 return
 return head
 } 
+// 6 target and append new invoked function
 document.querySelector('.header-container').append(Header())
 
 
