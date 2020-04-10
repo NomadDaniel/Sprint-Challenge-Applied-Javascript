@@ -252,6 +252,10 @@ body {
   letter-spacing: 1px;
   font-weight: bold;
 }
+.carousel-container {
+  width: 100%;
+}
+
 .carousel {
   width: 100%;
   display: flex;
@@ -301,5 +305,5 @@ body {
 }
 .carousel img {
   width: 100%;
-  display: none;
+  /* display: none; */
 }
